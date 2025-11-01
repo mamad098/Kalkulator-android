@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
+    android:background="@drawable/background_gradient"
     tools:context=".halaman_utama">
 
     <androidx.appcompat.widget.Toolbar
@@ -65,13 +65,14 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="vertical"
+            android:background="@drawable/gradient_card_view"
             android:padding="24dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ahmad Dhani"
-                android:textColor="#333333"
+                android:textColor="#FFFF"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -80,14 +81,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Kelas: 3IN"
-                android:textColor="#555555"
+                android:textColor="#FFFF"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Manajemen Informatika"
-                android:textColor="#777777"
+                android:textColor="#FFFF"
                 android:textSize="18sp" />
 
         </LinearLayout>
@@ -114,13 +115,14 @@
             android:layout_height="158dp"
             android:gravity="center_horizontal"
             android:orientation="vertical"
+            android:background="@drawable/gradient_card_view"
             android:padding="24dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Prasyinda Arindya Putri"
-                android:textColor="#333333"
+                android:textColor="#FFFF"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -129,16 +131,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Kelas: 3IN"
-                android:textColor="#555555"
+                android:textColor="#FFFF"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Manajemen Informatika"
-                android:textColor="#777777"
+                android:textColor="#FFFF"
                 android:textSize="18sp" />
-
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -164,13 +165,14 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="vertical"
-            android:padding="24dp">
+            android:padding="24dp"
+            android:background="@drawable/gradient_card_view">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ferly Juliawan"
-                android:textColor="#333333"
+                android:textColor="#FFFF"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -179,14 +181,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Kelas: 3IN"
-                android:textColor="#555555"
+                android:textColor="#FFFF"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Manajemen Informatika"
-                android:textColor="#777777"
+                android:textColor="#FFFF"
                 android:textSize="18sp" />
 
         </LinearLayout>
@@ -208,7 +210,7 @@
         app:strokeColor="@color/black" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/todo_button"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
         android:layout_height="66dp"
